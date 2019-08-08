@@ -3,9 +3,7 @@
 
 // BASIC BLOCK PROPERTIES
 .block {
-    color: white;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 
 //SUCCESS
@@ -66,4 +64,15 @@
 .block-menu-active {
     @extend .block-menu;
     @extend .border-menu-active;    
+}
+
+.block-text {
+    @extend .block;
+    @extend .background-text;
+    @extend .border-text;    
+}
+
+.block-text-active {
+    @extend .block-text;
+    @extend .border-text-active;    
 }
