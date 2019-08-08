@@ -71,3 +71,14 @@
   @extend .border;
   box-shadow: inset 0 2px 2px 4px darken(map-get($btn-color-basis, "color-menu"), 20%);
 }
+
+.border-text {
+  @extend .border;
+  box-shadow: 0 0 0 2px darken(map-get($btn-color-basis, "color-text"), 20%);
+  box-shadow: inset 0 0 0 2px darken(map-get($btn-color-basis, "color-text"), 20%);
+}
+
+.border-text-active {
+  @extend .border;
+  box-shadow: inset 0 2px 2px 4px darken(map-get($btn-color-basis, "color-text"), 20%);
+}
