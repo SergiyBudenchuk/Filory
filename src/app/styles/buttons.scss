@@ -1,0 +1,60 @@
+@import './base_gui/blocks.scss'; 
+
+.app-btn {
+  padding: 5px 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.app-btn-success{
+  @extend .app-btn;
+  @extend .block-success;
+}
+
+.app-btn-success:active {
+  @extend .app-btn;
+  @extend .block-success-active;
+}
+
+.app-btn-info {
+  @extend .app-btn;
+  @extend .block-info;
+}
+
+.app-btn-info:active {
+  @extend .app-btn;
+  @extend .block-info-active;
+}
+
+
+.app-btn-cancel {
+  @extend .app-btn;
+  @extend .block-cancel;
+}
+
+.app-btn-cancel:active {
+  @extend .app-btn;
+  @extend .block-cancel-active;
+}
+
+
+.app-btn-alt {
+  @extend .app-btn;
+  @extend .block-alt;
+}
+
+.app-btn-alt:active {
+  @extend .app-btn;
+  @extend .block-alt-active;
+}
+
+
+.app-btn-menu {
+  @extend .app-btn;
+  @extend .block-menu;
+}
+
+.app-btn-menu:active {
+  @extend .app-btn;
+  @extend .block-menu-active;
+}
